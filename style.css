@@ -15,11 +15,17 @@ body {
 	flex-direction: column;
 	gap: 1.5rem;
 
-	border: 1px solid black;
-	margin: 1px;
+	border: 1px solid #a9c7ff;
+	margin: 2px;
 
-	background-image: linear-gradient(135deg, #ebf7ff 25%, #f2faff 25%, #f2faff 50%, #ebf7ff 50%, #ebf7ff 75%, #f2faff 75%, #f2faff 100%);
-	background-size: 56.57px 56.57px;
+	background-color: #fbfdff;
+	background-image: radial-gradient(#2b54a0 0.9500000000000001px, #fbfdff 0.9500000000000001px);
+	background-size: 19px 19px;
 
-	border-radius: 2rem;
+	border-radius: 0.5rem;
+
+	width: calc(100% - 4px);
+	height: calc(100% - 4px);
+
+	box-shadow: inset 0 0 1rem #2b54a02b;
 }
